@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import Bonifacio from "../assets/boniPic.jpg";
 
 function Homepage() {
   return (
@@ -26,6 +27,16 @@ function Homepage() {
         <h2>Discover the bright future of our barangay</h2>
       </main>
 
+      <div className="about-section">
+        <h2>About Barangay barayong:</h2>
+        <div id="captain-name">
+          <img src={Bonifacio} alt="Barangay Captain Bonifacio Azores" id="captain-img" />
+          <p className="description-captain">
+            Honorable Bonifacio B. Azores, fondly known by his constituents as "Kap. Yen," serves as the duly elected Barangay Captain (Punong Barangay) of Barayong, Ligao City, Albay. Assuming office following the October 2023 Barangay and Sangguniang Kabataan Elections, Captain Azores leads an active administration dedicated to promoting grassroots development, ensuring community safety, and upgrading local infrastructure. His governance prioritizes agricultural sustainability to support the village's vast farming community, working hand-in-hand with city officials to deliver accessible health, education, and social services to over 2,200 residents.
+          </p>
+          <span className="captain-title">Barangay Captain</span>
+        </div>
+      </div>
       <footer className="footer">
         <div className="contacts">
           <h3>Contact Us</h3>
